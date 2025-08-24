@@ -50,7 +50,7 @@ Here’s a glimpse of the game interface 👇
 
 ![GamePage](GamePage.png)  
 
-*(Make sure your screenshot `GamePage.png` is placed in the project root so it shows up here!)*  
+ 
 
 ---
 
