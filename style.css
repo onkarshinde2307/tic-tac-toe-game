@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  text-align: center;
+  color: #191913;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  color: #2c2c2c;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vmin;
+}
+
+.box {
+  border: 3px solid #333;
+  border-radius: 1rem;
+  background: #fff;
+  font-size: 10vmin;
+  font-weight: bold;
+  color: #2c2c2c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box:hover {
+  background: #f8f8f8;
+  transform: scale(1.05);
+}
+
+.reset-btn,
+#new-btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.7rem;
+  background: #2c2c2c;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.reset-btn:hover,
+#new-btn:hover {
+  background: #444;
+  transform: scale(1.05);
+}
+
+.reset-btn:active,
+#new-btn:active {
+  transform: scale(0.95);
+}
+
+#msg {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2c2c2c;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.msg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.msg-container p {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+ footer {
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #2c2c2c;
+  opacity: 0.8;
+}
