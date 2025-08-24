@@ -30,10 +30,7 @@ Challenge your friend in this timeless classic, enjoy a smooth UI, and relive th
 ┣ 📜 script.js # Game logic
 ┗ 📜 README.md # Project details
 
-yaml
-Copy
-Edit
-
+ 
 ---
 
 ## 🎯 How to Play  
