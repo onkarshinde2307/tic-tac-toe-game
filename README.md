@@ -24,13 +24,12 @@ Challenge your friend in this timeless classic, enjoy a smooth UI, and relive th
 ---
 
 ## 📂 Project Structure  
-📦 tic-tac-toe-game
-┣ 📜 index.html # Main HTML file
-┣ 📜 style.css # Styling
-┣ 📜 script.js # Game logic
-┗ 📜 README.md # Project details
+📦 tic-tac-toe-game  
+┣ 📜 index.html # Main HTML file  
+┣ 📜 style.css # Styling  
+┣ 📜 script.js # Game logic  
+┗ 📜 README.md # Project details  
 
- 
 ---
 
 ## 🎯 How to Play  
@@ -46,8 +45,6 @@ Challenge your friend in this timeless classic, enjoy a smooth UI, and relive th
 Here’s a glimpse of the game interface 👇  
 
 ![GamePage](GamePage.png)  
-
- 
 
 ---
 
